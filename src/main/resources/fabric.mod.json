@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "keeptraders",
+  "version": "${version}",
+  "name": "KeepTraders",
+  "description": "Keep your named wandering traders!",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/keeptrader/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cuteneko.keeptraders.KeepTraders"
+    ]
+  },
+  "mixins": [
+    "keeptraders.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.19"
+  }
+}
